@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+.container #log{
+width:100%;
+height:auto;
+
+}
+
+</script>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>My First Bootstrap Page</h1>
+  <p>Resize this responsive page to see the effect!</p> 
+</div>
+  
+<div class="container" id="log" >
+  <div class="row">
+    <div class="col-sm-9">
+	 <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-reponsive-item" width="560" height="315" src="https://www.youtube.com/embed/S53U5x_4tBM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>	  
+    </div>
+   <!--  MESSAGE BOARD  -->	   	  
+		
+		<div class="col-md-3 col-md-offset-1"  style="background-color: lightblue;">
+ <div id="logo">
+			<img src="img/html_csslogo.jpg" alt="roll"></div>
+			<div span3  id="wrapper">
+			<p style="background:#63AEE8; vertical-align:middle; text-align:center; margin:0px 0; color:white; text-transform:uppercase; width:auto; height:40px;">LEARNING TO CODE</p>
+                <div class="bonus"> <h4 ><a style="padding:10px 10px; cursor:pointer;color:#c7bab6;" data-toggle="modal" data-target="#myModal">Bonus: Why "Hello World"?</a></h4></div>
+            	<h4  style="cursor:none">Introduction to HTML</h4>
+				<div id="" style="display:">
+
+            	<ol class="list-features">
+                		<li style="cursor:pointer" onclick="my1Function()">Understanding The Internet</li>
+                    
+                </ol>
+            </div>
+			<h4 onclick="toggle_visibility('goo');"   style="">1. THE ADVENTURE BEGINS</h4>
+                
+                
+                
+			<div id="goo" style="display:none">
+
+            	<ol class="list-features">
+                	<li  style="cursor:pointer" onclick="myFunction()">Hello World</li>
+					<li  style="cursor:pointer" onclick="aFunction()">Moving the Player</li>
+                    
+                </ol>
+				</div>
+				<h4   onclick="toggle_visibility('foo');" style="cursor:pointer;">2. CAMERA AND PLAY AREA</h4>
+				<div id="foo" style="display:none">
+
+            	<ol class="list-features">
+                	<li  style="cursor:pointer" onclick="bFunction()">Moving the Camera</li>
+					<li  style="cursor:pointer" onclick="cFunction()">Setting up the Play Area</li>
+                    
+                </ol>
+            </div>
+	  </div>   
+	  
+	  </div> 
+	</div>
+  
+  </div>
+</div>
+  <div class="container"> 
+  <div class="container" id="log" >
+  <div class="row">
+    <div class="col-sm-9">
+	 <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-reponsive-item" width="560" height="315" src="https://tinyurl.com/yzbs4wsj" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>	  
+    </div>
+
+  </div> 
+</body>
+</html>
